@@ -5,14 +5,14 @@
 
 /* ---------- CSS Variables (easy to customize) ---------- */
 :root {
-  --bg: #0f0f12;
-  --bg-alt: #16161a;
-  --card: #1c1c22;
-  --text: #e8e8ed;
-  --text-muted: #a0a0b0;
-  --accent: #6c63ff;
-  --accent-hover: #5a52e0;
-  --border: #2a2a35;
+  --bg: #0B0F1A;
+  --bg-alt: #121826;
+  --card: #1A2233;
+  --text: #F0F4F8;
+  --text-muted: #bec4cb;
+  --accent: #5B8DEF;
+  --accent-hover: #7BA3F5;
+  --border: #2A3548;
   --radius: 12px;
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
   --transition: 0.25s ease;
@@ -102,7 +102,7 @@ ul {
 .btn-primary:hover {
   background: var(--accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(108, 99, 255, 0.35);
+  box-shadow: 0 6px 16px rgba(91, 141, 239, 0.35);
 }
 
 .btn-secondary {
@@ -227,8 +227,8 @@ ul {
   align-items: center;
   padding: 4rem 0;
   /* Subtle animated gradient background */
-  background: radial-gradient(ellipse at 20% 50%, rgba(108, 99, 255, 0.08) 0%, transparent 50%),
-              radial-gradient(ellipse at 80% 20%, rgba(108, 99, 255, 0.05) 0%, transparent 40%);
+  background-image: url("/images/hero background.jpg");
+  background-size: cover;
 }
 
 .hero-content {
@@ -239,7 +239,7 @@ ul {
 }
 
 .hero-greeting {
-  color: var(--accent);
+  color: #6F1D1B;
   font-weight: 500;
   font-size: 1.1rem;
   margin-bottom: 0.4rem;
@@ -253,12 +253,13 @@ ul {
   line-height: 1.15;
   margin-bottom: 0.35rem;
   animation: fadeInUp 0.6s ease 0.1s both;
+  color: black;
 }
 
 .hero-role {
   font-size: 1.35rem;
   font-weight: 500;
-  color: var(--text-muted);
+  color: #6F1D1B;
   margin-bottom: 1.25rem;
   animation: fadeInUp 0.6s ease 0.2s both;
 }
