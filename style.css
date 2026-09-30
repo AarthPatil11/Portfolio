@@ -227,7 +227,7 @@ ul {
   align-items: center;
   padding: 4rem 0;
   /* Subtle animated gradient background */
-  background-image: url("/images/hero background.jpg");
+  background-image: url("images/hero%20background.jpg");
   background-size: cover;
 }
 
