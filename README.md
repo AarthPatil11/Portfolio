@@ -9,6 +9,13 @@ Personal portfolio website for Aarth Sameer Patil, a first-year Computer Science
 - HTML
 - CSS
 
+## Tools
+
+  - Visual Studio Code
+  - GitHub
+  - Grok AI, Claude AI
+  - YouTube, Google
+
 ## Projects
 
 ### Portfolio
@@ -19,7 +26,7 @@ GitHub: https://github.com/AarthPatil11/Portfolio
 
 ### Student Portal
 
-My debut web development project: a fully functional Student Portal built from scratch using HTML and CSS.  
+My debut web development project: a fully functional Student Portal built from scratch using HTML.  
 GitHub: https://github.com/AarthPatil11/simple-student-portal
 
 ### ShopEasy - Ecommerce Shopfront
