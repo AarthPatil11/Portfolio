@@ -1,9 +1,4 @@
-/* ============================================
-   PERSONAL PORTFOLIO — TEMPLATE
-   Fill in your details in index.html
-   ============================================ */
 
-/* ---------- CSS Variables (easy to customize) ---------- */
 :root {
   --bg: #0B0F1A;
   --bg-alt: #121826;
@@ -162,10 +157,10 @@ ul {
 
 /* Logo image in navbar */
 .logo-img {
-  height: 40px;          /* adjust if needed */
+  height: 40px;         
   width: auto;
   display: block;
-  border-radius: 6px;    /* optional */
+  border-radius: 6px;    
 }
 
 .logo:hover {
@@ -226,7 +221,6 @@ ul {
   display: flex;
   align-items: center;
   padding: 4rem 0;
-  /* Subtle animated gradient background */
   background-image: url("images/hero%20background.jpg");
   background-size: cover;
 }
@@ -289,7 +283,7 @@ ul {
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  object-fit: cover;     /* keeps the photo from stretching */
+  object-fit: cover;     
   border: 3px solid var(--border);
   animation: pulse 3s ease-in-out infinite;
 }
@@ -304,7 +298,6 @@ ul {
   justify-content: center;
   color: var(--text-muted);
   font-size: 0.95rem;
-  /* Soft pulse animation */
   animation: pulse 3s ease-in-out infinite;
 }
 
@@ -702,7 +695,7 @@ ul {
 /* Mobile */
 @media (max-width: 640px) {
   .nav-links {
-    display: none; /* Simple: hide links on small screens. You can add a hamburger later if needed */
+    display: none; 
   }
 
   .nav-cta {
